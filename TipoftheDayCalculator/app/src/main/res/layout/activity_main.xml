@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgm_scaled"> <!-- ✅ Add this line -->
+
+    <TextView
+        android:id="@+id/tipText"
+        android:text="Your Tip Will Appear Here"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:padding="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/getTipBtn"
+        android:text="Get Tip of the Day"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/infoBtn"
+        android:src="@drawable/ic_info"
+        android:layout_gravity="end"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
