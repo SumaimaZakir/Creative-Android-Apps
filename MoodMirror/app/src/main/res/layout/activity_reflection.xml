@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmscaled"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtMood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:text="Your Mood"/>
+
+        <TextView
+            android:id="@+id/txtQuote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Quote of the Day"/>
+
+        <TextView
+            android:id="@+id/txtTip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#CCCCCC"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Tip"/>
+
+        <TextView
+            android:id="@+id/txtMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#AADDFF"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Music Suggestion"/>
+    </LinearLayout>
+</ScrollView>
+

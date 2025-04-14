@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoodMirror</string>
+    <string name="app_description">Track your emotions and reflect on your moods. Select an emotion to get personalized quotes, tips, and music suggestions.</string>
+    <string name="got_it">Got it!</string>
+    <string name="mood_title">Current Mood: %s</string>
+    <string name="tip_prefix">✨ Tip: %s</string>
+    <string name="music_prefix">🎵 Music: %s</string>
+    <string name="default_quote">Every day is a new beginning</string>
+    <string name="default_tip">Take a moment to appreciate small things</string>
+    <string name="default_music">Listen to sounds that calm your mind</string>
+    <string name="quote_happy">Happiness is contagious – share it!</string>
+    <string name="tip_happy">Keep a gratitude journal.</string>
+    <string name="quote_sad">Tears are words the heart can\'t express.</string>
+    <string name="tip_sad">Reach out to someone you trust.</string>
+    <string name="quote_calm">Peace comes from within.</string>
+    <string name="tip_calm">Breathe in deeply, exhale slowly.</string>
+</resources>
+
+

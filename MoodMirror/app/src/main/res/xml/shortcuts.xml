@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+        <shortcut
+            android:shortcutId="quick_mood"
+            android:enabled="true"
+            android:icon="@drawable/ic_shortcut_mood"
+            android:shortcutShortLabel="@string/shortcut_quick_mood"
+            android:shortcutLongLabel="@string/shortcut_quick_mood_long">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.example.moodmirror"
+                android:targetClass="com.example.moodmirror.MainActivity" />
+            <categories android:name="android.shortcut.conversation" />
+        </shortcut>
+    </shortcuts>
+</PreferenceScreen>
