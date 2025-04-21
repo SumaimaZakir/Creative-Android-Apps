@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="eco_primary">#4CAF50</color> <!-- Green -->
+    <color name="eco_primary_dark">#388E3C</color>
+    <color name="eco_secondary">#8BC34A</color>
+    <color name="eco_background">#F1F8E9</color>
+
+    <color name="eco_primary_night">#2E7D32</color>
+    <color name="eco_primary_dark_night">#1B5E20</color>
+    <color name="eco_secondary_night">#689F38</color>
+    <color name="eco_background_night">#1A1A1A</color>
+    <color name="white">#FFFFFF</color>
+</resources>
